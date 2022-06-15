@@ -6,30 +6,583 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wecoachble</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <div class="main-header">
+    <!-- main-header start -->
+    <header class="main-header">
         <div class="container">
-            <div class="col-3">
-                <div class="main-header-logo">
-                    <img src="assets/images/wecoachable Logo 1.png" alt="wecoachable Logo 1">
+            <div class="row ">
+                <div class="col-3">
+                    <div class="logo">
+                        <img src="assets/images/wecoachable Logo 1.png" alt="header-logo">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <nav class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Organizer Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="#">Organizer/Teacher Login</a>
+                            </li>
+                            <li>
+                                <a href="#">Student Login/Sing Up</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="btn main-header-btn">Request Privet Class</a>
+                </div>
+
+                <div class="menu-search">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="search">
+                                <select>
+                                    <option>Public</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                                <a href="#" class="search-input">
+                                    <input type="text" name="" id="" placeholder="Search">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="rifht-search">
+                                <select>
+                                    <option>Catagories</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
-            <div class="col-6">
-                <nav class="main-menu">
-                    <ul>
-                        <li><a href="#">Organizer Sign Up</a></li>
-                        <li><a href="#">Organizer/Teacher Login</a></li>
-                        <li><a href="#">Student Login/Sing Up</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-3">
-                <a href="#" class="btn main-header-btn">Request Privet Class</a>
+        </div>
+        </div>
+    </header>
+
+    <!-- main-header end -->
+    <!-- banner start -->
+
+    <div class="banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="tob-menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="active">Top rated</a>
+                            </li>
+                            <li>
+                                <a href="#">Most Popular</a>
+                            </li>
+                            <li>
+                                <a href="#">Upcoming</a>
+                            </li>
+                            <li>
+                                <a href="#">Kids</a>
+                            </li>
+                            <li>
+                                <a href="#">Adult</a>
+                            </li>
+                            <li>
+                                <a href="#">Teen</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img img">
+                            <img src="assets/images/advanced.jpg" alt="advanced">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$59</span>
+                            </div>
+
+                        </div>
+                        <div class="advanced-content content">
+
+                            <span> Photography & Video</span>
+                            <h1> Advanced Videography: Make Your Videos Better </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/startup.jpg" alt="startup">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$277</span>
+                            </div>
+                        </div>
+                        <div class="startup-content content">
+                            <span> Business</span>
+                            <h1> Startup Bootcamp & Accelerator by Seedstars </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/overcome.jpg" alt="overcome">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$9.9</span>
+                            </div>
+                        </div>
+                        <div class="overcome-content content">
+                            <span>Personal Development </span>
+                            <h1> Overcome Stress using Cognitive Behavioural </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
+
+    <!-- banner end -->
+    <!-- Popular Course start -->
+    <section class="popular-course-area">
+        <div class="container">
+            <div class="row course">
+                <div class="col-12">
+                    <div class="populer-content justify-content-between">
+                        <h2>Populer Course</h2>
+                        <a href="#" class="see-all">See All
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/technology.jpg" alt="technology">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$59</span>
+                            </div>
+                        </div>
+                        <div class="technology-content content">
+                            <span> Technology</span>
+                            <h1> Ultimate AWS Certified Cloud Practitioner - 2022 </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/development.jpg" alt="development">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$277</span>
+                            </div>
+                        </div>
+                        <div class="development-content content">
+                            <span> Development</span>
+                            <h1> The Complete 2022 Web Development Bootcamp</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/network & security.jpg" alt="network & security">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$9.9</span>
+                            </div>
+                        </div>
+                        <div class="network-content content">
+                            <span>Network & Security </span>
+                            <h1> IT Troubleshooting Skill Training </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular Course end -->
+    <!-- learning start -->
+
+    <section class="learning-area">
+        <div class="learning-container container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="learning-content">
+                        <h2>
+                            Learning today, Leading Tomorrow
+                        </h2>
+                        <p>Learning Today Leading Tomorrow (LT2). We are a small MAT based in Warwickshire, established in 2016 when we opened our second school.</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="learning-img">
+                        <img src="assets/images/Rectangle 150.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- learning end -->
+
+    <!-- Yoga Course start -->
+    <section class="popular-course-area">
+        <div class="container">
+            <div class="row course">
+                <div class="col-12">
+                    <div class="populer-content justify-content-between">
+                        <h2>Yoga Course</h2>
+                        <a href="#" class="see-all">See All
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/14-Day.jpg" alt="14-Day">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$59</span>
+                            </div>
+                        </div>
+                        <div class="technology-content content">
+                            <span> Excercise</span>
+                            <h1> 14-Day Yoga Detox and Empowerment Course </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/breathwork.jpg" alt="breathwork">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$277</span>
+                            </div>
+                        </div>
+                        <div class="development-content content">
+                            <span> Excercise</span>
+                            <h1> Breathwork Teacher Training Certificate Course</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/internationally.jpg" alt="internationally">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$9.9</span>
+                            </div>
+                        </div>
+                        <div class="network-content content">
+                            <span>Excercise</span>
+                            <h1> Internationally Accredited Diploma in Yoga Training </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Yoga Course end -->
+    <!-- Development Classes start -->
+    <section class="popular-course-area">
+        <div class="container">
+            <div class="row course">
+                <div class="col-12">
+                    <div class="populer-content justify-content-between">
+                        <h2>Development Course</h2>
+                        <a href="#" class="see-all">See All
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/puthon.jpg" alt="puthon">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$59</span>
+                            </div>
+                        </div>
+                        <div class="technology-content content">
+                            <span> Programming</span>
+                            <h1> Python for Beginners - Programming from scratch </h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/beginning.jpg" alt="beginning">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$277</span>
+                            </div>
+                        </div>
+                        <div class="development-content content">
+                            <span> Programming</span>
+                            <h1> Beginning C++ Programming Beginner</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/java.jpg" alt="java">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$9.9</span>
+                            </div>
+                        </div>
+                        <div class="network-content content">
+                            <span>Programming </span>
+                            <h1> Java Programming Masterclass</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Development Classes end -->
+
+    <!-- Think out section start -->
+    <div class="think-out-area">
+        <div class="think-out-container container">
+            <div class="row">
+                <div class="c0l-12">
+                    <div class="think-content content">
+                        <h2>Think Out of the Box</h2>
+                        <p>Learning Today Leading Tomorrow (LT2). We are a small MAT based in Warwickshire, established in 2016 when we opened our second school.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Think out section end -->
+    <!-- Design Classes start -->
+    <section class="popular-course-area">
+        <div class="container">
+            <div class="row course">
+                <div class="col-12">
+                    <div class="populer-content justify-content-between">
+                        <h2>Design Course</h2>
+                        <a href="#" class="see-all">See All
+                            <img src="assets/images/arrow-right.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/photoshop.jpg" alt="photoshop">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$59</span>
+                            </div>
+                        </div>
+                        <div class="technology-content content">
+                            <span> Design</span>
+                            <h1> Photoshop Course: From Beginner to Photoshop Pro</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/the-ultimate.jpg" alt="the-ultimate">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$277</span>
+                            </div>
+                        </div>
+                        <div class="development-content content">
+                            <span> Design</span>
+                            <h1>The Ultimate Guide to Usability and UX Design</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="cards">
+                        <div class="cards-img">
+                            <img src="assets/images/essential.jpg" alt="essential">
+                            <div class="star-icon">
+                                <i class="fa-solid fa-star"></i>
+                                <span>(4.9)</span>
+                            </div>
+                            <div class="price">
+                                <span>$9.9</span>
+                            </div>
+                        </div>
+                        <div class="network-content content">
+                            <span>Design </span>
+                            <h1> Essential Skills for Designers - Masking</h1>
+                            <p>This python for beginners course is geared to students who want to know how python works and also to those totally new.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Design Classes end -->
+    <!--footer start -->
+    <div class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="/assets/images/wecoachable Logo 1.png" alt="wecoachable Logo 1">
+                        </div>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <div class="footer-icon">
+                            <ul class="d-flex">
+                                <li>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Explore</h4>
+                        <ul class="footer-links">
+                            <li>About Us</li>
+                            <li>Contact us</li>
+                            <li>Help</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Usefull Links</h4>
+                        <ul class="footer-links">
+                            <li>Courses</li>
+                            <li>Teachers</li>
+                            <li>Signup as Teacher</li>
+                            <li>Signup as Organizer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-widget">
+                        <h4 class="footer-title">Contact Info</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- copyright start -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-9">
+                    <p>Copyright© 2022 Wecoachable @ All Rights Reserved</p>
+                </div>
+                <div class="col-3">
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer end -->
+
+
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
+
+
 </body>
 
 </html>
