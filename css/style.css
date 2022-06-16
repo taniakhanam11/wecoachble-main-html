@@ -25,31 +25,47 @@ ul li a {
 }
 
 h1 {
-  color: #012665;
-  display: block;
-  font-size: 25px;
+  color: #FFFFFF;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 130%;
-  padding-bottom: 12px;
-}
-
-h1:hover {
-  color: #FF5400;
+  line-height: 72px;
 }
 
 h2 {
+  font-weight: 700;
   font-size: 40px;
+  line-height: 52px;
+  color: #012665;
+}
+
+h3 {
+  padding: 25px 0 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #012665;
+}
+
+h3:hover {
+  color: #FF5400;
+}
+
+span {
+  padding: 38px 0;
+  font-size: 16px;
+  font-weight: 500;
   color: #012665;
 }
 
 p {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #012665;
 }
 
 .content {
-  padding: 40px 30px;
+  padding: 35px 25px;
 }
 
 .main-header {
@@ -78,25 +94,52 @@ p {
           justify-content: center;
 }
 
-.main-header-btn {
+.main-menu ul a {
   color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-menu ul a:hover {
+  color: #FF5400;
+}
+
+.main-header-btn {
   width: 221px;
   height: 50px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 35px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background-color: #FF5400;
 }
 
 .main-header-btn:hover {
-  border: #FF5400;
-  color: #FFFFFF;
+  color: #FF5400;
 }
 
-.search-input {
-  padding: 30px 22px;
+.search select {
+  padding: 30px 35px;
+  color: #012665;
+}
+
+.search input {
+  width: 84%;
+  height: 86px;
+  background: #244c8d;
+  border: #ccd4e0;
+}
+
+.right-search select {
+  padding: 30px 80px;
+  color: #FFFFFF;
+  background-color: transparent;
 }
 
 .tob-menu {
-  padding: 0;
+  padding: 80px 0 42px;
 }
 
 .tob-menu ul {
@@ -108,27 +151,30 @@ p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 80px 0 42px;
 }
 
 .tob-menu ul li a {
-  padding: 16px 40px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 22px;
+  padding: 16px 40px;
   color: #013183;
   background-color: #F7F7F7;
-  border-radius: 5px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .tob-menu ul li a.active {
   background-color: #013183;
   color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .tob-menu ul li a:hover {
   background-color: #013183;
   color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .cards {
@@ -146,16 +192,22 @@ p {
 }
 
 .cards .cards-img .star-icon {
-  background-color: red;
-  position: absolute;
   left: 16px;
   top: 16px;
-  background-color: #fff;
-  border-radius: 52px;
-  text-align: center;
   width: 97px;
   height: 40px;
-  line-height: 40px;
+  padding: 12px 20px;
+  line-height: 16px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 52px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cards .cards-img .star-icon span {
+  color: #012665;
+  font-weight: 500;
 }
 
 .cards .cards-img .star-icon i {
@@ -163,33 +215,39 @@ p {
 }
 
 .cards .cards-img .price {
+  background-color: #FF5400;
   position: absolute;
   bottom: -45px;
   right: 32px;
   width: 90px;
-  background-color: #FF5400;
-  color: #FFF;
   height: 90px;
+  border-radius: 50%;
   text-align: center;
   line-height: 90px;
-  border-radius: 50%;
+}
+
+.cards .cards-img .price span {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .course {
   padding-top: 72px;
 }
 
-.populer-content {
+.course-content {
   padding-bottom: 24px;
   margin-bottom: 40px;
   border-bottom: 1px solid #ccd4e0;
-  row-gap: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.populer-content .see-all {
+.course-content .see-all {
+  width: 147px;
+  height: 52px;
   padding: 12px 24px;
   background-color: #f7f7f7;
   border-radius: 4px;
@@ -204,60 +262,50 @@ p {
           justify-content: end;
 }
 
-.populer-content .see-all:hover {
+.course-content .see-all:hover {
   color: #FF5400;
 }
 
-.learning-container {
+.learning-area {
+  padding-top: 72px;
+}
+
+.learning-area .learning-content {
   background-color: #693FD7;
   background-image: url(../assets/images/learning-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 5px;
-  max-width: 1304px;
+  border-radius: 12px 0 0 12px;
+  padding: 78px 69px;
 }
 
-.learning-container .learning-content {
-  padding: 70px 60px;
+.learning-area .learning-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
 }
 
-.learning-container .learning-content h2 {
-  font-size: 56px;
-  font-weight: 700;
-  padding-bottom: 20px;
-  color: #FFF;
-}
-
-.learning-container .learning-content p {
-  color: #FFF;
-}
-
-.learning-container .learning-img {
-  max-height: 423px;
-}
-
-.think-out-container {
+.think-out {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#012665), to(rgba(0, 0, 0, 0))), url(../assets/images/think-out-img.png);
   background-image: linear-gradient(#012665, rgba(0, 0, 0, 0)), url(../assets/images/think-out-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 73px;
 }
 
-.think-out-container .think-content {
-  padding: 112px 320px;
+.think-out .think-content {
+  padding: 112px 332px;
   text-align: center;
 }
 
-.think-out-container .think-content h2 {
-  padding-bottom: 24px;
-  color: #FFF;
-}
-
-.think-out-container .think-content p {
-  padding: 0 40px;
-  color: #FFF;
+.think-out .think-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
 }
 
 .footer-area {
@@ -272,6 +320,7 @@ p {
 
 .footer-area .footer-widget p {
   line-height: 30px;
+  color: #FFFFFF;
 }
 
 .footer-area .footer-widget .footer-logo {
@@ -316,6 +365,19 @@ p {
 
 .footer-area .footer-widget .footer-links {
   line-height: 40px;
+}
+
+.footer-area .footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
 }
 
 .footer-copyright {
